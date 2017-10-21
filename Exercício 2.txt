@@ -1,0 +1,1 @@
+Não é necessário a classificação dinâmica, mas pode ser realizada na gen/espec de Gerente e Atendente, onde no caso de uso 1 o Gerente pode realizar a função de Atendente.

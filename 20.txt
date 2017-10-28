@@ -1,0 +1,1 @@
+Desta forma aumenta o dinamismo do objeto e somente precisa criar os objetos Visita e/ou Obra quando forem necessário.

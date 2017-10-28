@@ -1,1 +1,2 @@
 Conforme existe exposições que são fixas, existem aquelas exposições que passam determinado tempo e depois vão embora como uma Visita.
+Utilizar generalização aumenta o desempenho do programa.

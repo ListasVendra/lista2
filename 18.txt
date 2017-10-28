@@ -1,0 +1,2 @@
+Seguindo o principío SOLID é melhor manter diversas interfaces específicas do que uma geral. 
+Além disso utilizar interfaces é uma maneira muito boa de manter o Principio Orientado a Objeto, pois interfaces encapsulam os mesmos.

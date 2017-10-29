@@ -1,0 +1,73 @@
+public interface Exposicao {
+
+	public abstract String getTitulo();
+
+	public abstract String getDescricao();
+
+	public abstract int getMaxVisitantes();
+
+	public abstract void setTitulo(String titulo);
+
+	public abstract void setDescricao(String descricao);
+
+	public abstract void setMaxVisitantes(int maxVisitantes);
+
+}
+
+public interface Visita {
+
+	public abstract DateTime getInicio();
+
+	public abstract DateTime getFim();
+
+	public abstract void setInicio(DateTime inicio);
+
+	public abstract void setFim(DateTime fim);
+
+}
+
+public class ExposicaoTemporaria implements Exposicao, Visita {
+
+	public String getTitulo() {
+		return null;
+	}
+
+	public String getDescricao() {
+		return null;
+	}
+
+	public int getMaxVisitantes() {
+		return 0;
+	}
+
+	public DateTime getInicio() {
+		return null;
+	}
+
+	public DateTime getFim() {
+		return null;
+	}
+
+	public void setTitulo(String titulo) {
+
+	}
+
+	public void setDescricao(String descricao) {
+
+	}
+
+	public void setMaxVisitantes(int maxVisitantes) {
+
+	}
+
+	public void setInicio(DateTime inicio) {
+
+	}
+
+	public void setFim(DateTime fim) {
+
+	}
+
+}
+
+

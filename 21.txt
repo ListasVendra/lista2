@@ -1,0 +1,49 @@
+public class Exposicao {
+
+	private String titulo;
+
+	private String descricao;
+
+	private int maxVisitantes;
+
+	public void get() {
+
+	}
+
+	public void set() {
+
+	}
+
+}
+
+public class Visita {
+
+	private DateTime inicio;
+
+	private DateTime fim;
+
+	public void get() {
+
+	}
+
+	public void set() {
+
+	}
+
+}
+public class ExposicaoTemporaria {
+
+	private Exposicao exposicao = null;
+
+	private Visita visita = null;
+
+	public void get() {
+
+	}
+
+	public void set() {
+
+	}
+
+}
+

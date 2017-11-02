@@ -1,0 +1,1 @@
+Desta forma a classe "Evento" por meio da interface poderá acessar informações importantes da classe "Sala" para poder criar o evento e pré estabelecer regras,como capacidade máxima do evento, porém não terá um acesso direto à classe "Sala", assim garantindo uma maior integridade da classe e ajudar no desacoplamento das relações entre elas.

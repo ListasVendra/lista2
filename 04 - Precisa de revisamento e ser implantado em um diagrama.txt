@@ -1,0 +1,32 @@
+4 -
+	ControleEvento:
+	        para Gerente: Param, para validar o usuário
+		para Evento: Local, Criação do Evento como variável local
+
+	ControleRestauração:
+	        para Gerente: Param, para validar o usuário
+		para Obra: Param, para usar uma obra já cadastrado
+		para Restauração: Local, Criação da Restauração como variável local
+
+	ControleExposição:
+	        para Gerente: Param, para validar o usuário
+		para Obra: Param, para usar uma obra já criada
+		para Exposição: Local, Criação da Restauração como variável local
+
+	ControleVendaSouvenir:
+	        para Gerente: Param, para validar o usuário
+	        para Souvenir: Param, para usar um Souvenir já cadastrado
+	        para Estoque: Param, para usar um Estoque já cadastrado
+
+	ControleVisita:
+	        para Gerente: Param, para validar o usuário
+	        para CartãoMagnetico: Param, para usar um CartãoMagnetico já cadastrado
+	        para Pagamento: Param, para usar um Pagamento já cadastrado
+
+
+
+
+
+
+
+

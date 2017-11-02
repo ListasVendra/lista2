@@ -1,0 +1,14 @@
+6 -
+LIST
+	Relação Souvenir e Estoque
+		Em relação 1 Souvenir para * Estoque
+
+	Relação Visitante e PagamentoVisita
+		Em relação 1 Visitante para * PagamentoVisita
+
+SET - Não há repetição de elementos
+	Relação Exposição e Sala
+		Em relação 1 Exposição para * Sala
+
+	Relação Exposição e Obra
+		Em relação 1..0 Exposição para * Obra

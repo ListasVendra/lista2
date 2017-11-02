@@ -1,39 +1,37 @@
-public class Visita {
+class Visita
+{
+private:
+	DateTime inicio;
 
-	private DateTime inicio;
+	DateTime fim;
 
-	private DateTime fim;
 
-	public void get() {
+public:
+	void get();
 
-	}
+	void set();
 
-	public void set() {
+};
 
-	}
+class Exposicao
+{
+private:
+	String titulo;
 
-}
+	String descricao;
 
-public class Exposicao {
+	int maxVisitantes;
 
-	private String titulo;
 
-	private String descricao;
+public:
+	void get();
 
-	private int maxVisitantes;
+	void set();
 
-	public void get() {
+};
 
-	}
-
-	public void set() {
-
-	}
-
-}
-
-public class ExposicaoTemporaria extends Exposicao, Visita {
-
-}
+class ExposicaoTemporaria : public Exposicao, public Visita
+{
+};
 
 

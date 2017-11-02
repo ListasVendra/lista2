@@ -1,0 +1,5 @@
+6 -
+SET - Usos de Set por não haver repetições
+	1 Exposição e * Sala
+	1 Exposição e * Obra
+	1 Souvenir e * Estoque

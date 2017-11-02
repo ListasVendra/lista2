@@ -1,4 +1,13 @@
 4 -
+	ControleVisita:
+	        para Gerente: Param, para validar o usuário
+	        para CartãoMagnetico: Param, para usar um CartãoMagnetico já cadastrado
+	        para PagamentoVisita: Local, Criação da Obra como variável local
+
+	ControleAcervo:
+	        para Gerente: Param, para validar o usuário
+		para Obra: Local, Criação da Obra como variável local
+
 	ControleEvento:
 	        para Gerente: Param, para validar o usuário
 		para Evento: Local, Criação do Evento como variável local
@@ -17,11 +26,6 @@
 	        para Gerente: Param, para validar o usuário
 	        para Souvenir: Param, para usar um Souvenir já cadastrado
 	        para Estoque: Param, para usar um Estoque já cadastrado
-
-	ControleVisita:
-	        para Gerente: Param, para validar o usuário
-	        para CartãoMagnetico: Param, para usar um CartãoMagnetico já cadastrado
-	        para Pagamento: Param, para usar um Pagamento já cadastrado
 
 
 

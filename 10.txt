@@ -1,1 +1,5 @@
-Desta forma a classe "Evento" por meio da interface poderá acessar informações importantes da classe "Sala" para poder criar o evento e pré estabelecer regras,como capacidade máxima do evento, porém não terá um acesso direto à classe "Sala", assim garantindo uma maior integridade da classe e ajudar no desacoplamento das relações entre elas.
+Interface Restaurável
+	Por meio dessa interface que protege de outras informações desnecessárias(aumentando o encapsulamento) para restauração as classes consumidoras(nesse caso somente a Restauração) podem coletar o status de restauracao e validar a restauração
+
+Interface Pagável
+	Desta forma as classes que forem consumir a interface Pagável e ultilizar seus métodos (calculoDesconto(), validaPagamento(), getValor()) não acessam outras informações (aumentando o encapsulamento)

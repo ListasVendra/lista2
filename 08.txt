@@ -1,1 +1,5 @@
 O número dos cartões magnéticos não se repetem. As pessoas que entraram com cartão magnético entraram numa ordem e saíram por outra.
+
+
+Nova resposta Andrei precisando de revisão:
+A entrada das Obras deve ser ordenada sem repetição podendo consultar o primeiro ou o último a ser inserido no Set.

@@ -1,0 +1,34 @@
+public class CartaoMagnetico implements Comparable{
+
+    int codigoVisitante;
+    int codigoCartaoMagnetico;
+    int nivelPermissao;
+    Visitante v;
+    @Override
+    public int compareTo(Object o) {
+        CartaoMagnetico a=(CartaoMagnetico) o;
+        if(a==null || this.codigoCartaoMagnetico != a.codigoCartaoMagnetico)
+        {
+            return 0;
+        } 
+        return 1;
+    }
+    
+    public CartaoMagnetico(Visitante v,int codigoCartaoMagnetico,int nivelPermissao)
+    {
+        //Código de implementação
+    }
+    
+}
+
+public class JavaApplication {
+
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+        SortedSet<CartaoMagnetico> lista = new TreeSet();
+        lista.add(new CartaoMagnetico(new Visitante(),100,2));
+        lista.add(new CartaoMagnetico(new Visitante(),32,2));
+    }
+    
+}

@@ -1,4 +1,0 @@
-3 - Herança Funcionario, Gerente, Atendente
-	    {disjunta, completa}
-    	    Obra, Escultura, Documento Histórico, Quadro
-	    {disjunta, incompleta}

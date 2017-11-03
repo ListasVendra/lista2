@@ -1,0 +1,1 @@
+Praticamente o mesmo do que no exercício 12, porém com a diferença de que caso o Funcionario seja destruido, os objetos Gerente e Atendente poderão continuar em memória, no caso de Obra se aplica o mesmo também

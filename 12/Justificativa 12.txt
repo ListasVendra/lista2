@@ -1,0 +1,3 @@
+No exemplo demonstrado a relação de Gerente, Atendente e Funcionario acaba permitindo classificação dinamica por meio da delegação, nesse caso é válido já que às vezes o Gerente precisa realizar o cargo de Atendente no sistema.
+
+No exemplo demonstrado em relação a Obra é válido, porém diferente do caso do Funcionario pois dessa vez a delegação está invertida, as classes filhas usaram a mãe que é a Obra, e na classe Obra que usará somente seus atributos podendo realizar o inicio do método validarlocal() genérico também

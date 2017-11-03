@@ -2,4 +2,4 @@ O número dos cartões magnéticos não se repetem. As pessoas que entraram com cart
 
 
 Nova resposta Andrei precisando de revisão:
-A entrada das Obras deve ser ordenada sem repetição podendo consultar o primeiro ou o último a ser inserido no Set.
+A entrada das Obras deve ser ordenada sem repetição podendo ordernar pelo codigoObra

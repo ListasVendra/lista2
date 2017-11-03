@@ -1,19 +1,27 @@
 public class Obra implements Comparable {
 
 	private int codigoObras;
+
 	private int tipoObra;
+
 	private int autor;
+
 	private String dadosBiograficos;
+
 	private String titulo;
+
 	private int dataObra;
+
 	private int tecnica;
+
 	private int statusObra;
+
 	public void getters() {
-		//Código implementado em Java
 
 	}
+
 	public void setters() {
-		//Código implementado em Java
+
 	}
 
 	public abstract void validarLocal(int sala);
@@ -25,16 +33,4 @@ public class Obra implements Comparable {
 		//Código implementado em Java
 	}
 
-}
-
-public class JavaApplication {
-
-
-    public static void main(String[] args) {
-        // TODO code application logic here
-        TreeSet<CartaoMagnetico> lista = new TreeSet();
-        lista.add(new Obra());
-        lista.add(new Obra());
-    }
-    
 }
